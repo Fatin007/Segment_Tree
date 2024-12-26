@@ -16,7 +16,7 @@ void build(int n, int b, int e){
     int l=2*n, r=2*n+1;
     build(l,b,m);
     build(r,m+1,e);
-    t[n]=t[l]+t[r];
+    t[n]=t[l]+t[r]; // change this line
 }
 
 void update(int n, int b, int e, int i, int v){
